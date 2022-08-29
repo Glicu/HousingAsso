@@ -1,13 +1,11 @@
-package pl.HousingAsso.User;
+package pl.HousingAsso.Flat;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.awt.print.Book;
+import java.util.List;
 
 @Repository
-public interface UserRepository extends JpaRepository <User, Long> {
-
-
+public interface FlatRepository extends JpaRepository <Flat, Long> {
 
 }
